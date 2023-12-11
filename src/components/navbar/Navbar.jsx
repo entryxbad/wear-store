@@ -7,7 +7,7 @@ const Navbar = () => {
     return (
         <div className='flex items-center justify-center px-[100px] gap-[40px] w-full h-[96px]'>
             <div className=''>
-                <span className='text-[32px] font-bold'>WEAR-STORE</span>
+                <span className='text-[32px] font-extrabold'>WEAR-STORE</span>
             </div>
             <div className='flex gap-[24px]'>
                 <Link underline='hover' color='inherit' href='#'>
