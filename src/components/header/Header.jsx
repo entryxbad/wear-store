@@ -28,7 +28,7 @@ const Header = () => {
                     </div>
                 </div>
             </div>
-            <div className='h-full'>
+            <div className='flex flex-col h-full'>
                 <img src={HeaderImage} alt='Картинка' className='max-w-full max-h-full' />
             </div>
         </div>
