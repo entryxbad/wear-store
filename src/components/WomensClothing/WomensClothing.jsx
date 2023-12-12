@@ -24,7 +24,7 @@ const WomensClothing = () => {
                 <h1 className='text-[48px] font-extrabold'>Women's Clothing</h1>
             </div>
             <div>
-                <Card products={products} borderB={true} />
+                <Card products={products} borderB={false} />
             </div>
         </div>
     )

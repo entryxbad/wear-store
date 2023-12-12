@@ -5,6 +5,7 @@ import Brand from './components/Brand/Brand'
 import MensClothing from './components/MensClothing/MensClothing'
 import Navbar from './components/Navbar/Navbar'
 import WomensClothing from './components/WomensClothing/WomensClothing'
+import Feedback from './components/Feedback/Feedback'
 
 const App = () => {
     return (
@@ -14,6 +15,7 @@ const App = () => {
             <Brand />
             <MensClothing />
             <WomensClothing />
+            <Feedback />
         </>
     )
 }
