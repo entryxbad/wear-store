@@ -3,7 +3,7 @@ import { Rating } from '@mui/material'
 const CardItem = ({ item }) => {
     return (
         <div className='flex flex-row'>
-            <div key={item.id} className='flex flex-col w-[295px] h-[298px] items-center '>
+            <div key={item.id} className='flex flex-col w-[295px] min-h-[298px] items-center '>
                 <div>
                     <img src={item.image} alt={item.title} className='h-56 mb-4' />
                 </div>

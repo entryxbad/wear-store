@@ -10,12 +10,12 @@ const MensClothing = () => {
     }, [])
 
     return (
-        <div className='flex flex-col items-center justify-center'>
-            <div className='mt-[65px] mb-[55px]'>
+        <div className='flex flex-col items-center'>
+            <div className='pt-16 pb-14'>
                 <h1 className='text-[48px] font-extrabold'>Men's Clothing</h1>
             </div>
             <div>
-                <Card products={products} />
+                <Card products={products} borderB={true} />
             </div>
         </div>
     )
