@@ -1,7 +1,9 @@
 import React from 'react'
-import Navbar from './components/navbar/Navbar'
-import Header from './components/header/Header'
-import Brand from './components/brand/Brand'
+
+import Header from './components/Header/Header'
+import Brand from './components/Brand/Brand'
+import MensClothing from './components/MensClothing/MensClothing'
+import Navbar from './components/Navbar/Navbar'
 
 const App = () => {
     return (
@@ -9,6 +11,7 @@ const App = () => {
             <Navbar />
             <Header />
             <Brand />
+            <MensClothing />
         </>
     )
 }
