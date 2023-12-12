@@ -1,7 +1,7 @@
 import CardItem from './CardItem'
 
 const Card = ({ products, borderB }) => {
-    const containerStyle = `flex flex-row w-[1400px] justify-between pb-16 ${
+    const containerStyle = `flex flex-row w-[1400px] justify-between pb-16 cursor-pointer ${
         borderB ? 'border-b border-[#F2F0F1]' : ''
     }`
 
